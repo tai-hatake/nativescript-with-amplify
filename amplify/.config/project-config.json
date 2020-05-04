@@ -1,0 +1,17 @@
+{
+    "projectName": "sampleamplifynatives",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "vue",
+        "config": {
+            "SourceDir": "app",
+            "DistributionDir": "platforms",
+            "BuildCommand": "tns run build",
+            "StartCommand": "tns run"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
